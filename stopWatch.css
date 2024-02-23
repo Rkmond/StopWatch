@@ -1,0 +1,65 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+}
+
+#clockface{
+    background-color: rgb(33, 32, 32);
+    height: 10rem;
+    width: 30rem;
+    border: 6px solid black;
+    border-radius: 50px;
+    display: flex;
+    color: white;
+}
+
+.clock{
+    padding: 4px;
+    border-right: 1px solid black;
+    font-size: 300%;
+}
+
+#fraction{
+    border: none;
+}
+
+.clock span{
+    font-size: 260%;
+}
+
+#buttons{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    text-align: center;
+    font-size: 18px;
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    padding: 7px;
+    cursor: pointer;
+    transition: all 250ms;
+    font-weight: bold;
+}
+
+button:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+#lapse-record{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
